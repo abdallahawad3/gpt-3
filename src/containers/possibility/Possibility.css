@@ -1,0 +1,27 @@
+.gpt3__possibility {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+  align-items: center;
+}
+
+.gpt3__possibility-image img {
+  width: 100%;
+}
+
+.gpt3__possibility-content p:nth-child(1) 
+,.gpt3__possibility-content p:nth-child(3){
+  color: var(--color-text);
+  margin: 1rem 0;
+} 
+
+@media (max-width: 650px) {
+  .gpt3__possibility {
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  }
+}
+
+@media (max-width: 550px) {
+  .gpt3__possibility {
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  }
+}

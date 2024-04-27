@@ -1,0 +1,33 @@
+.blog-card {
+  width: 300px;
+  background-color: var(--color-blog);
+  color: #FFF;
+  height: fit-content;
+}
+
+.blog-image {
+  display: flex;
+  align-items: start;
+  background-color: var(--color-bg);
+}
+
+.blog-card img {
+  width: 100%;
+}
+
+.blog-card-content {
+  padding: 1rem;
+}
+
+.blog-card-content p {
+  font-size: 10px;
+}
+
+.blog-card-content h2 {
+  margin-bottom: 1rem;
+}
+
+.blog-card-content a {
+  font-size: 12px;
+}
+
