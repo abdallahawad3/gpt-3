@@ -42,6 +42,3 @@ This project is a modern landing page built with React, designed to offer a slee
 3. **Running the Application:**
    ```bash
    npm start
-
-
-
